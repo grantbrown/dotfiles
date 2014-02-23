@@ -1,0 +1,41 @@
+
+set history=700
+
+filetype plugin on
+filetype indent on
+
+" Syntax highlightin
+syntax enable
+
+colorscheme desert
+
+" Encoding
+set encoding=utf8
+set ffs=unix
+
+" Stop cluttering stuff up, I use source control. 
+set nobackup
+set nowb
+set noswapfile
+
+" Soft tabs
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+
+" Autoindent
+set ai
+set si
+
+" Wrap lines, do I want this?
+set wrap
+
+"Move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+
+
