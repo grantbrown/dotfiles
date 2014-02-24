@@ -1,0 +1,10 @@
+case $TERM in
+xterm*|rxvt*)
+PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}[`basename ${PWD}`]\007"'
+;;
+screen*)
+PROMPT_COMMAND='echo -ne "\033k\033\134\033k${HOSTNAME}[`basename ${PWD}`]\033\134"'
+;;
+*)
+    ;;
+esac
