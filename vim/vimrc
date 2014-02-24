@@ -122,5 +122,13 @@ let g:neocomplcache_omni_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 
+let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
+  if &term == "screen"
+    set t_ts=^[k
+    set t_fs=^[\
+  endif
+  if &term == "screen" || &term == "xterm"
+    set title
+  endif
 
 
