@@ -31,6 +31,10 @@ set si
 " Wrap lines, do I want this?
 set wrap
 
+
+" highlight search results 
+:set hlsearch
+
 "Move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
