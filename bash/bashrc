@@ -8,3 +8,4 @@ PROMPT_COMMAND='echo -ne "\033k\033\134\033k${HOSTNAME}[`basename ${PWD}`]\033\1
 *)
     ;;
 esac
+export PATH=${PATH}:~/bin
