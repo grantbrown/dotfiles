@@ -135,4 +135,7 @@ let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
     set title
   endif
 
+" Recognize OpenCL .cl files as c files
+au BufNewFile,BufRead *.cl set filetype=c
+
 
