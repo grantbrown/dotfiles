@@ -1,3 +1,6 @@
 [submodule "neocomplcache.vim"]
 	path = neocomplcache.vim
 	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = https://github.com/grantbrown/vim-markdown.git
