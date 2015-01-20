@@ -138,4 +138,11 @@ let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
 " Recognize OpenCL .cl files as c files
 au BufNewFile,BufRead *.cl set filetype=c
 
+" Visual indicator for column max
+if exists('+colorcolumn')
+  set colorcolumn=80
+else
+    au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+
 
