@@ -10,4 +10,5 @@ PROMPT_COMMAND='echo -ne "\033k\033\134\033k${HOSTNAME}[`basename ${PWD}`]\033\1
 esac
 eval `dircolors ~/.dir_colors`
 alias ls="ls --color=auto"
+alias rmbin="rm ./*.o; rm./*.so; rm./*.a"
 export PATH=${PATH}:~/bin
