@@ -4,3 +4,6 @@
 [submodule "vim-markdown"]
 	path = vim-markdown
 	url = https://github.com/grantbrown/vim-markdown.git
+[submodule "nerdcommenter"]
+	path = nerdcommenter
+	url = https://github.com/grantbrown/nerdcommenter.git
