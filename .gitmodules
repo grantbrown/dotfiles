@@ -7,3 +7,6 @@
 [submodule "nerdcommenter"]
 	path = nerdcommenter
 	url = https://github.com/grantbrown/nerdcommenter.git
+[submodule "julia-vim"]
+	path = julia-vim
+	url = https://github.com/grantbrown/julia-vim.git
