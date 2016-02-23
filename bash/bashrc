@@ -18,3 +18,14 @@ eval `dircolors ~/.dir_colors`
 alias ls="ls --color=auto"
 alias rmbin="rm ./*.o; rm ./*.so; rm ./*.a"
 export PATH=${PATH}:~/bin
+
+# load virtualenvwrapper for python (after custom PATHs)
+
+if [ -f /usr/share/virtualenvwrapper/virtualenvwrapper.sh ]; then
+    venvwrap="virtualenvwrapper.sh"
+    /usr/bin/which -a $venvwrap
+    if [ $? -eq 0 ]; then
+        venvwrap=`/usr/bin/which $venvwrap`
+        source $venvwrap
+    fi
+fi
