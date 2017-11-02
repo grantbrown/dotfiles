@@ -29,3 +29,4 @@ if [ -f /usr/share/virtualenvwrapper/virtualenvwrapper.sh ]; then
         source $venvwrap
     fi
 fi
+stty -ixon
