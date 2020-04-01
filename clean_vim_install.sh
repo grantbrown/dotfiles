@@ -9,3 +9,4 @@ cp ./neocomplcache.vim/* ~/.vim -r
 cp ./vim-markdown/* ~/.vim -r
 cp ./nerdcommenter/* ~/.vim -r
 cp -R ./julia-vim/* ~/.vim
+cp  -R ./vim-rainbow/* ~/.vim

@@ -146,3 +146,5 @@ else
 endif
 
 let NERDSpaceDelims=1
+
+au FileType c,cpp,objc,objcpp,R,r,js call rainbow#load()

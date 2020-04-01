@@ -10,3 +10,6 @@
 [submodule "julia-vim"]
 	path = julia-vim
 	url = https://github.com/grantbrown/julia-vim.git
+[submodule "vim-rainbow"]
+	path = vim-rainbow
+	url = https://github.com/frazrepo/vim-rainbow.git
